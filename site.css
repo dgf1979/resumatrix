@@ -1,0 +1,14 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+/* site defaults */
+
+body {
+    font-family: "Didact Gothic", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(163, 169, 197), rgb(240, 240, 240));
+    color: rgb(90, 19, 19);
+}
