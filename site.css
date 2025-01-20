@@ -1,8 +1,14 @@
 @import "reset.css";
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+/* site defaults */
 
 body {
-    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-family: "Didact Gothic", serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 1.4rem;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(163, 169, 197), rgb(240, 240, 240));
+    color: rgb(90, 19, 19);
 }
