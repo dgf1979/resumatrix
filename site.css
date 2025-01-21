@@ -17,19 +17,6 @@ p {
     text-indent: 0.8rem;
 }
 
-nav {
-    display: flex;
-    justify-content: flex-end;
-    padding: 1rem 2rem;
-    background-color: rgb(16, 13, 34);
-    color: white;
-
-    li {
-        display: inline-block;
-        padding: 0 1rem;
-    }
-}
-
 /* increase base font size on narrow viewports */
 @media screen and (max-width: 600px) {
     html {
