@@ -11,15 +11,22 @@ function loadCSS(filename) {
     document.head.appendChild(file);
 }
 
+// real bad hack, considering the use of synchronous XMLHttpRequest
+function fetchTextSynchronous(url) {
+    const request = new XMLHttpRequest();
+    request.open("GET", url, false); // `false` makes the request synchronous
+    request.send(null);
+
+    if (request.status === 200) {
+        console.log(request.responseText);
+    }
+    return request.responseText;
+}
+
 function LoadSiteNavFragment(parentElementID) {
     loadCSS(navFragmentCSSFilePath);
     parentElement = document.getElementById(parentElementID);
-    fetch(navFragmentFilePath)
-        .then(response => {
-            return response.text();
-        })
-        .then(siteNavMarkup => {
-            parentElement.innerHTML = siteNavMarkup
-        });
+    const siteNavMarkup = fetchTextSynchronous(navFragmentFilePath);
+    parentElement.innerHTML = siteNavMarkup;
 }
 LoadSiteNavFragment('site-nav-container');
