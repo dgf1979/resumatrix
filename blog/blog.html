@@ -2,12 +2,28 @@
 
 <head>
     <title>Drew's Web Log</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="blog.css">
 </head>
 
 <body>
     <h1>Welcome to Drew's Web Log</h1>
     <p>Here you will find all the latest news and updates from Drew.</p>
     <p>Stay tuned!</p>
+
+    <div id="posts"></div>
+
+    <template id="post-template">
+        <div class="post">
+            <section>
+                <span>
+                    <h2 class="post-title"></h2>
+                </span>
+                <span class="post-date"></span>
+            </section>
+            <article class="post-content"></article>
+        </div>
+    </template>
 
     <script src="../lib/showdown/showdown.js"></script>
     <script src="blog.js"></script>
