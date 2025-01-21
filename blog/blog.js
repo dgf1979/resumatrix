@@ -1,18 +1,21 @@
 import { waitForElement } from '../lib/domutils.js';
 
 var converter = new showdown.Converter();
+converter.setFlavor('github');
 
 /*
     blogPosts is a dictionary where the key is the markdown file name and the value is an object with the title and date of the blog post.
 */
 const blogPosts = {
     "blogtest_1.md": {
-        title: "Blog Test 1",
-        date: "2021-01-01",
+        title: "First Post!",
+        date: "2025-01-20",
+        id: "first-post",
     },
     "blogtest_2.md": {
-        title: "Blog Test 2",
-        date: "2021-01-01",
+        title: "Markdown for blog content - so far so good",
+        date: "2025-01-20",
+        id: "markdown-for-blog-content-so-far-so-good",
     },
 }
 
@@ -27,14 +30,14 @@ for (const [markdownFileName, properties] of Object.entries(blogPosts).reverse()
         .then(markdown => {
             var html = converter.makeHtml(markdown);
 
-            addPostMarkup(properties.title, properties.date, html);
+            addPostMarkup(properties.title, properties.date, properties.id, html);
         });
 }
 
-function addPostMarkup(title, date, content) {
+function addPostMarkup(title, date, id, content) {
     let postElement = postTemplateElement.content.cloneNode(true);
     // generate an id from title for jump links
-    postElement.querySelector(".post").id = title.replaceAll(" ", "-").toLowerCase();
+    postElement.querySelector(".post").id = id;
     postElement.querySelector(".post-title").textContent = title;
     postElement.querySelector(".post-date").textContent = date;
     postElement.querySelector(".post-content").innerHTML = content;

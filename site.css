@@ -25,3 +25,10 @@ nav {
         padding: 0 1rem;
     }
 }
+
+/* increase base font size on narrow viewports */
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 120%;
+    }
+}

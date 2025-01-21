@@ -2,27 +2,32 @@
 
 <head>
     <title>Drew's Web Log</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../site.css">
     <link rel="stylesheet" href="blog.css">
 </head>
 
 <body>
-    <h1>Welcome to Drew's Web Log</h1>
-    <p>Here you will find all the latest news and updates from Drew.</p>
-    <p>Stay tuned!</p>
 
-    <div id="posts"></div>
+    <main>
+        <header>
+            <h1>Welcome to Drew's Web Log</h1>
+            <p>Here you will find all the latest news and updates from Drew.</p>
+            <p>Stay tuned!</p>
+        </header>
+
+        <div id="posts"></div>
+    </main>
 
     <template id="post-template">
-        <div class="post">
-            <section>
-                <span>
-                    <h2 class="post-title"></h2>
-                </span>
-                <span class="post-date"></span>
+        <article class="post">
+            <section class="post-header">
+                <div class="post-title"></div>
+                <div class="post-date"></div>
             </section>
-            <article class="post-content"></article>
-        </div>
+            <section class="post-content"></section>
+        </article>
     </template>
 
     <script src="../lib/showdown/showdown.js"></script>
