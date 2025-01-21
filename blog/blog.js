@@ -17,7 +17,7 @@ const blogPosts = {
 const postContainerElement = document.getElementById("posts");
 const postTemplateElement = document.getElementById("post-template");
 
-for (const [markdownFileName, properties] of Object.entries(blogPosts)) {
+for (const [markdownFileName, properties] of Object.entries(blogPosts).reverse()) {
     fetch(markdownFileName)
         .then(response => {
             return response.text();
