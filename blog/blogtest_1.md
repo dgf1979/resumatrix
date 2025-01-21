@@ -1,6 +1,6 @@
 Some good examples of tradeoffs as I work on this little project.
 
-I decided I wanted to start with 'vanilla' (but modern!) javascript, css, and html. Although there are many interesting front-end frameworks I've yet to try (Svelte and HTMX being top of the list), there's been a ton of change in browser-native functionality to try to keep up on. Additionally, writing browser-native means no build step, which is one less layer of interpretation to deal with - great for rapid iteration without any of the usual fussing with bundler tooling.
+I decided I wanted to start with 'vanilla' (but modern!) javascript, css, and html. Although there are many interesting front-end frameworks I've yet to try ([Svelte](https://svelte.dev/) and [HTMX](https://htmx.org/) being top of the list), there's been a ton of change in browser-native functionality to try to keep up on. Additionally, writing browser-native means no build step, which is one less layer of interpretation to deal with - great for rapid iteration without any of the usual fussing with bundler tooling.
 
 It's great how much you can do RE: modularity now without a bundler. Native Javascript modules, CSS imports, and HTML templates each enable a workflow that previously wasn't available without some kind of bundling. 
 

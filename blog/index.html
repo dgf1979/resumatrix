@@ -13,8 +13,7 @@
     <main>
         <header>
             <h1>Welcome to Drew's Web Log</h1>
-            <p>Here you will find all the latest news and updates from Drew.</p>
-            <p>Stay tuned!</p>
+            <p>Software topics & in-depth work history</p>
         </header>
 
         <div id="posts"></div>
@@ -23,11 +22,12 @@
     <template id="post-template">
         <article class="post">
             <section class="post-header">
-                <div class="post-title"></div>
-                <div class="post-date"></div>
+                <h2 class="post-title"></h2>
+                <h6 class="post-date"></h6>
             </section>
             <section class="post-content"></section>
         </article>
+        <hr />
     </template>
 
     <script src="../lib/showdown/showdown.js"></script>
