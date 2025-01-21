@@ -12,3 +12,16 @@ body {
     background-image: linear-gradient(rgb(235, 236, 227), rgb(240, 240, 240));
     color: rgb(16, 13, 34);
 }
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 2rem;
+    background-color: rgb(16, 13, 34);
+    color: white;
+
+    li {
+        display: inline-block;
+        padding: 0 1rem;
+    }
+}

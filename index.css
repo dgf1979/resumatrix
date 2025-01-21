@@ -6,14 +6,12 @@
     font-style: normal;
 }
 
-header {
-    padding-top: 1em;
-}
+
 
 section {
     max-width: 600px;
     text-align: center;
-
+    margin: auto;
 
     h1 {
         font-size: 3em;
