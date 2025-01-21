@@ -1,3 +1,5 @@
+import { waitForElement } from '../lib/domutils.js';
+
 var converter = new showdown.Converter();
 
 /*
@@ -49,16 +51,7 @@ if (location.hash) {
     });
 }
 
-// Function to wait for an element to exist
-function waitForElement(selector, callback) {
-    const interval = setInterval(() => {
-        const element = document.querySelector(selector);
-        if (element) {
-            clearInterval(interval);
-            callback(element);
-        }
-    }, 100); // Check every 100ms
-}
+
 
 
 
