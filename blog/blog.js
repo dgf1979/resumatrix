@@ -39,6 +39,27 @@ function addPostMarkup(title, date, content) {
     postContainerElement.appendChild(postElement);
 }
 
+// Scroll to requested hash
+// since the page is generated dynamically, we need to wait for the element to exist before scrolling to it
+if (location.hash) {
+    var requested_hash = location.hash.slice(1);
+    waitForElement(location.hash, (element) => {
+        console.log('Element exists:', element);
+        document.getElementById(requested_hash).scrollIntoView();
+    });
+}
+
+// Function to wait for an element to exist
+function waitForElement(selector, callback) {
+    const interval = setInterval(() => {
+        const element = document.querySelector(selector);
+        if (element) {
+            clearInterval(interval);
+            callback(element);
+        }
+    }, 100); // Check every 100ms
+}
+
 
 
 
