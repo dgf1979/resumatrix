@@ -1,0 +1,3 @@
+Using the code I'm building to document my thoughts on building the code is a bit of a chicken-and-egg situation.
+
+I assumed converting Markdown to HTML was going to be relatively trivial, and so far it has been. Nice for something to work that way for a change. Markdown's all over in the developer sphere anyway, so I get the extra benefit of staying in practice with something that has other common use cases. So far it beats writing blog posts in raw HTML (we'll see what happens when I get around to a more advanced use case - like embedding an image or code snippet).

@@ -9,6 +9,56 @@ body {
     font-style: normal;
     font-size: 1.4rem;
     min-height: 100vh;
-    background-image: linear-gradient(rgb(163, 169, 197), rgb(240, 240, 240));
-    color: rgb(90, 19, 19);
+    background-image: linear-gradient(rgb(235, 236, 227), rgb(240, 240, 240));
+    color: rgb(16, 13, 34);
+}
+
+p {
+    text-indent: 0.8rem;
+}
+
+/* increase base font size on narrow viewports */
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 120%;
+    }
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.0rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 1.0rem;
+    font-weight: 600;
+    color: #999;
+}
+
+h6 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-style: italic;
+    color: #999;
+}
+
+hr {
+    border-top: 1px solid goldenrod;
+    width: 75%;
+    margin: auto;
 }

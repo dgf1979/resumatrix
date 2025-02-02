@@ -1,0 +1,12 @@
+nav.site-nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 2rem;
+    background-color: rgb(16, 13, 34);
+    color: white;
+
+    li {
+        display: inline-block;
+        padding: 0 1rem;
+    }
+}
