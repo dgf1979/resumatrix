@@ -6,7 +6,9 @@
     font-style: normal;
 }
 
-
+summary {
+    padding-top: 2rem;
+}
 
 section {
     max-width: 600px;
