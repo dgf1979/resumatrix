@@ -11,15 +11,7 @@
             </div>
         </section>
         <section class="contact">
-            <div class="email">
-                redacted@email.com
-            </div>
-            <div class="phone">
-                (123)456-7890
-            </div>
-            <div class="location">
-                123 No Doxxing St. City, State 12345
-            </div>
+            ** see original application for contact details **
         </section>
         <section class="links">
             <xsl:for-each select="resume/info/links/link">
@@ -53,49 +45,40 @@
                     </span>
                 </div>
             </xsl:for-each>
-
         </section>
         <section class="skills">
             <aside>
                 <section>
                     <h1>Languages</h1>
-                    <ul>
-                        <xsl:for-each select="resume/languages/language">
-                            <li>
-                                <xsl:value-of select="." />
-                            </li>
-                        </xsl:for-each>
-                    </ul>
+                    <xsl:for-each select="resume/languages/language">
+                        <span class="skill-pill" title="{@years} years">
+                            <xsl:value-of select="." />
+                        </span>
+                    </xsl:for-each>
                 </section>
                 <section>
-                    <h1>Frameworks</h1>
-                    <ul>
-                        <xsl:for-each select="resume/frameworks/framework">
-                            <li>
-                                <xsl:value-of select="." />
-                            </li>
-                        </xsl:for-each>
-                    </ul>
+                    <h1>Frameworks/Libraries</h1>
+                    <xsl:for-each select="resume/frameworks/framework">
+                        <span class="skill-pill">
+                            <xsl:value-of select="." />
+                        </span>
+                    </xsl:for-each>
                 </section>
                 <section>
-                    <h1>Stacks</h1>
-                    <ul>
-                        <xsl:for-each select="resume/stacks/stack">
-                            <li>
-                                <xsl:value-of select="." />
-                            </li>
-                        </xsl:for-each>
-                    </ul>
+                    <h1>Platforms</h1>
+                    <xsl:for-each select="resume/platforms/platform">
+                        <span class="skill-pill">
+                            <xsl:value-of select="." />
+                        </span>
+                    </xsl:for-each>
                 </section>
                 <section>
                     <h1>Tools</h1>
-                    <ul>
-                        <xsl:for-each select="resume/tools/tool">
-                            <li>
-                                <xsl:value-of select="." />
-                            </li>
-                        </xsl:for-each>
-                    </ul>
+                    <xsl:for-each select="resume/tools/tool">
+                        <span class="skill-pill">
+                            <xsl:value-of select="." />
+                        </span>
+                    </xsl:for-each>
                 </section>
             </aside>
         </section>

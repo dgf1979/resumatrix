@@ -4,8 +4,6 @@
     <info>
         <name>Andrew 'Drew' Finstrom</name>
         <pronouns>He/Him</pronouns>
-        <email>redacted</email>
-        <phone>redacted</phone>
         <links>
             <link url="https://info.dfin.dev/">info.dfin.dev</link>
             <link url="https://www.linkedin.com/in/andrewfinstrom/">linkedin.com/in/andrewfinstrom</link>
@@ -226,4 +224,59 @@
             </notes>
         </course>
     </education>
-</resume>
+    <languages>
+        <language years="19">JavaScript/ECMAScript</language>
+        <language years="8">SQL</language>
+        <language years="5">Java</language>
+        <language years="2">Python</language>
+        <language years="1">C#</language>
+        <language years="1">VB.Net</language>
+        <language years="1">Ruby</language>
+        <language years="2">Powershell</language>
+        <language years="3">Linux Shell (Bash/ZSH)</language>
+        <language years="8">VBScript</language>
+        <language years="20">HTML</language>
+        <language years="10">CSS</language>
+    </languages>
+    <frameworks>
+        <framework>Apache Wicket</framework>
+        <framework>ASP.NET</framework>
+        <framework>Spring</framework>
+        <framework>.NET Winforms</framework>
+        <framework>React</framework>
+        <framework>Ruby on Rails</framework>
+        <framework>Express.js</framework>
+        <framework>Vue</framework>
+        <framework>Bootstrap</framework>
+        <framework>jQuery</framework>
+    </frameworks>
+    <platforms>
+        <platform>Windows</platform>
+        <platform>Linux</platform>
+        <platform>MacOS</platform>
+        <platform>IIS</platform>
+        <platform>Apache Tomcat</platform>
+        <platform>AWS</platform>
+        <platform>Heroku</platform>
+        <platform>MS SQL</platform>
+        <platform>Oracle</platform>
+        <platform>MySQL</platform>
+        <platform>PostgreSQL</platform>
+    </platforms>
+    <tools>
+        <tool>DataGrip</tool>
+        <tool>Pycharm</tool>
+        <tool>WebStorm</tool>
+        <tool>VSCode</tool>
+        <tool>Eclipse</tool>
+        <tool>Visual Studio</tool>
+        <tool>SQL Server Management Studio</tool>
+        <tool>Azure Data Studio</tool>
+        <tool>Git</tool>
+        <tool>JIRA</tool>
+        <tool>Docker</tool>
+        <tool>GitHub</tool>
+        <tool>GitLab</tool>
+        <tool>BitBucket</tool>
+    </tools>
+</resume>       

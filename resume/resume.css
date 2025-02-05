@@ -42,9 +42,9 @@
         text-transform: lowercase;
     }
 
-    section {
+    /* section {
         border: 1px solid #e0e0e0;
-    }
+    } */
 }
 
 #resume .info {
@@ -64,7 +64,6 @@
 
 #resume .contact {
     flex: 4 0 20%;
-
     font-size: 0.8rem;
 }
 
@@ -113,4 +112,30 @@
 
 #resume .skills {
     flex: 4 0 20%;
+
+    aside {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+
+        section {
+            h1 {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    span.skill-pill {
+        display: inline-block;
+        padding: 4px 8px;
+        margin: 4px;
+        border-radius: 4px;
+        color: white;
+        background-color: rgb(44, 64, 102);
+        font-family: "Open Sans", serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-variation-settings: "width" 100;
+        font-size: 0.6rem;
+    }
 }
