@@ -7,14 +7,14 @@
         <email>redacted</email>
         <phone>redacted</phone>
         <links>
-            <link url="https://www.linkedin.com/in/andrewfinstrom/">LinkedIn</link>
-            <link url="https://github.com/dgf1979/">GitHub</link>
-            <link url="https://info.dfin.dev/">Extended Resume</link>
+            <link url="https://info.dfin.dev/">info.dfin.dev</link>
+            <link url="https://www.linkedin.com/in/andrewfinstrom/">linkedin.com/in/andrewfinstrom</link>
+            <link url="https://github.com/dgf1979/">github.com/dgf1979</link>
         </links>
     </info>
     <experiences>
         <experience>
-            <title>Software Programmer</title>
+            <title>Software Developer (Full Stack)</title>
             <company>Aon</company>
             <location>Spokane, WA</location>
             <dates>
@@ -28,16 +28,14 @@
                 </end>
             </dates>
             <description>
-                <p>a</p>
-                <p>b</p>
-                <p>c</p>
+                Extend and improve the suite of internal web platform applications
             </description>
             <notes>
 
             </notes>
         </experience>
         <experience>
-            <title>Programmer II</title>
+            <title>Programmer II (Full Stack)</title>
             <company>Maplewood Software</company>
             <location>Spokane, Wa</location>
             <dates>
@@ -51,9 +49,7 @@
                 </end>
             </dates>
             <description>
-                <p>a</p>
-                <p>b</p>
-                <p>c</p>
+                Extend and improve the StaffReady line of SAAS products
             </description>
             <notes>
 
@@ -66,24 +62,22 @@
             <dates>
                 <start>
                     <month></month>
-                    <year></year>
+                    <year>2020</year>
                 </start>
                 <end>
                     <month></month>
-                    <year></year>
+                    <year>2020</year>
                 </end>
             </dates>
             <description>
-                <p>a</p>
-                <p>b</p>
-                <p>c</p>
+                Sort and load outgoing packages for delivery
             </description>
             <notes>
 
             </notes>
         </experience>
         <experience>
-            <title>Programmer</title>
+            <title>Programmer (Full Stack)</title>
             <company>Maplewood Software</company>
             <location>Spokane, Wa</location>
             <dates>
@@ -97,16 +91,14 @@
                 </end>
             </dates>
             <description>
-                <p>a</p>
-                <p>b</p>
-                <p>c</p>
+                Extend and improve the StaffReady line of SAAS products
             </description>
             <notes>
 
             </notes>
         </experience>
         <experience>
-            <title>Jr. Developer</title>
+            <title>Jr. Developer (Front End)</title>
             <company>SBI Team</company>
             <location>Portland, OR</location>
             <dates>
@@ -120,9 +112,7 @@
                 </end>
             </dates>
             <description>
-                <p>a</p>
-                <p>b</p>
-                <p>c</p>
+                Implement features and fixes for on-premise software products
             </description>
             <notes>
 
@@ -143,9 +133,8 @@
                 </end>
             </dates>
             <description>
-                <p>a</p>
-                <p>b</p>
-                <p>c</p>
+                Improve search capabilities of the customer portal, implemented a major upgrade to
+                image upload and processing
             </description>
             <notes>
 
@@ -166,9 +155,7 @@
                 </end>
             </dates>
             <description>
-                <p>a</p>
-                <p>b</p>
-                <p>c</p>
+                Tier 2 &amp; 3 support of managed services customers in the Portland/Vancouver area
             </description>
             <notes>
 
@@ -189,9 +176,7 @@
                 </end>
             </dates>
             <description>
-                <p>a</p>
-                <p>b</p>
-                <p>c</p>
+                Build and maintain custom internal applications
             </description>
             <notes>
 
@@ -212,9 +197,8 @@
                 </end>
             </dates>
             <description>
-                <p>a</p>
-                <p>b</p>
-                <p>c</p>
+                Tier 1/2/3 HelpDesk support and administration of heterogeneous Windows domain
+                environment
             </description>
             <notes>
                 <p>Wilcox went out of business in 2013</p>
