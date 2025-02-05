@@ -1,12 +1,282 @@
 <?xml version="1.0"?>
 
-<books>
-    <book>
-        <title>Book 1</title>
-        <author>Author 1</author>
-    </book>
-    <book>
-        <title>Book 2</title>
-        <author>Author 2</author>
-    </book>
-</books>
+<resume>
+    <info>
+        <name>Andrew 'Drew' Finstrom</name>
+        <pronouns>He/Him</pronouns>
+        <links>
+            <link url="https://info.dfin.dev/">info.dfin.dev</link>
+            <link url="https://www.linkedin.com/in/andrewfinstrom/">linkedin.com/in/andrewfinstrom</link>
+            <link url="https://github.com/dgf1979/">github.com/dgf1979</link>
+        </links>
+    </info>
+    <experiences>
+        <experience>
+            <title>Software Developer (Full Stack)</title>
+            <company>Aon</company>
+            <location>Spokane, WA</location>
+            <dates>
+                <start>
+                    <month>4</month>
+                    <year>2022</year>
+                </start>
+                <end>
+                    <month>7</month>
+                    <year>2023</year>
+                </end>
+            </dates>
+            <description>
+                Extend and improve the suite of internal web platform applications
+            </description>
+            <notes>
+
+            </notes>
+        </experience>
+        <experience>
+            <title>Programmer II (Full Stack)</title>
+            <company>Maplewood Software</company>
+            <location>Spokane, Wa</location>
+            <dates>
+                <start>
+                    <month>2</month>
+                    <year>2021</year>
+                </start>
+                <end>
+                    <month>3</month>
+                    <year>2022</year>
+                </end>
+            </dates>
+            <description>
+                Extend and improve the StaffReady line of SAAS products
+            </description>
+            <notes>
+
+            </notes>
+        </experience>
+        <experience>
+            <title>Ship Dock</title>
+            <company>Amazon</company>
+            <location>Spokane, Wa</location>
+            <dates>
+                <start>
+                    <month></month>
+                    <year>2020</year>
+                </start>
+                <end>
+                    <month></month>
+                    <year>2020</year>
+                </end>
+            </dates>
+            <description>
+                Sort and load outgoing packages for delivery
+            </description>
+            <notes>
+
+            </notes>
+        </experience>
+        <experience>
+            <title>Programmer (Full Stack)</title>
+            <company>Maplewood Software</company>
+            <location>Spokane, Wa</location>
+            <dates>
+                <start>
+                    <month>4</month>
+                    <year>2016</year>
+                </start>
+                <end>
+                    <month>6</month>
+                    <year>2020</year>
+                </end>
+            </dates>
+            <description>
+                Extend and improve the StaffReady line of SAAS products
+            </description>
+            <notes>
+
+            </notes>
+        </experience>
+        <experience>
+            <title>Jr. Developer (Front End)</title>
+            <company>SBI Team</company>
+            <location>Portland, OR</location>
+            <dates>
+                <start>
+                    <month>10</month>
+                    <year>2015</year>
+                </start>
+                <end>
+                    <month>12</month>
+                    <year>2015</year>
+                </end>
+            </dates>
+            <description>
+                Implement features and fixes for on-premise software products
+            </description>
+            <notes>
+
+            </notes>
+        </experience>
+        <experience>
+            <title>Software Development Internship</title>
+            <company>Sustainable Harvest</company>
+            <location>Portland, OR</location>
+            <dates>
+                <start>
+                    <month>8</month>
+                    <year>2015</year>
+                </start>
+                <end>
+                    <month>9</month>
+                    <year>2015</year>
+                </end>
+            </dates>
+            <description>
+                Improve search capabilities of the customer portal, implemented a major upgrade to
+                image upload and processing
+            </description>
+            <notes>
+
+            </notes>
+        </experience>
+        <experience>
+            <title>IT Engineer</title>
+            <company>Team Logic IT</company>
+            <location>Portland, OR</location>
+            <dates>
+                <start>
+                    <month>3</month>
+                    <year>2014</year>
+                </start>
+                <end>
+                    <month>11</month>
+                    <year>2014</year>
+                </end>
+            </dates>
+            <description>
+                Tier 2 &amp; 3 support of managed services customers in the Portland/Vancouver area
+            </description>
+            <notes>
+
+            </notes>
+        </experience>
+        <experience>
+            <title>Business Analyst Developer</title>
+            <company>AAR Mobility</company>
+            <location>Cadillac, MI</location>
+            <dates>
+                <start>
+                    <month>5</month>
+                    <year>2012</year>
+                </start>
+                <end>
+                    <month>10</month>
+                    <year>2013</year>
+                </end>
+            </dates>
+            <description>
+                Build and maintain custom internal applications
+            </description>
+            <notes>
+
+            </notes>
+        </experience>
+        <experience>
+            <title>IT Support</title>
+            <company>Wilcox Professional Services, LLC</company>
+            <location>Cadillac, MI</location>
+            <dates>
+                <start>
+                    <month>1</month>
+                    <year>2001</year>
+                </start>
+                <end>
+                    <month>4</month>
+                    <year>2012</year>
+                </end>
+            </dates>
+            <description>
+                Tier 1/2/3 HelpDesk support and administration of heterogeneous Windows domain
+                environment
+            </description>
+            <notes>
+                <p>Wilcox went out of business in 2013</p>
+            </notes>
+        </experience>
+    </experiences>
+    <education>
+        <course>
+            <name>Certificate - Web Development</name>
+            <school>Baker College</school>
+            <location>Cadillac, MI</location>
+            <url>https://www.baker.edu</url>
+            <dates>2013-2015</dates>
+            <notes>
+                <p>Also took classes unrelated to certificate program</p>
+            </notes>
+        </course>
+        <course>
+            <name>27 week coding bootcamp program</name>
+            <school>Epicodus</school>
+            <location>Portland, OR</location>
+            <dates>2007-2011</dates>
+            <notes>
+                <p>Epicodus closed its doors in 2023</p>
+            </notes>
+        </course>
+    </education>
+    <languages>
+        <language years="19">JavaScript/ECMAScript</language>
+        <language years="8">SQL</language>
+        <language years="5">Java</language>
+        <language years="2">Python</language>
+        <language years="1">C#</language>
+        <language years="1">VB.Net</language>
+        <language years="1">Ruby</language>
+        <language years="2">Powershell</language>
+        <language years="3">Linux Shell (Bash/ZSH)</language>
+        <language years="8">VBScript</language>
+        <language years="20">HTML</language>
+        <language years="10">CSS</language>
+    </languages>
+    <frameworks>
+        <framework>Apache Wicket</framework>
+        <framework>ASP.NET</framework>
+        <framework>Spring</framework>
+        <framework>.NET Winforms</framework>
+        <framework>React</framework>
+        <framework>Ruby on Rails</framework>
+        <framework>Express.js</framework>
+        <framework>Vue</framework>
+        <framework>Bootstrap</framework>
+        <framework>jQuery</framework>
+    </frameworks>
+    <platforms>
+        <platform>Windows</platform>
+        <platform>Linux</platform>
+        <platform>MacOS</platform>
+        <platform>IIS</platform>
+        <platform>Apache Tomcat</platform>
+        <platform>AWS</platform>
+        <platform>Heroku</platform>
+        <platform>MS SQL</platform>
+        <platform>Oracle</platform>
+        <platform>MySQL</platform>
+        <platform>PostgreSQL</platform>
+    </platforms>
+    <tools>
+        <tool>DataGrip</tool>
+        <tool>Pycharm</tool>
+        <tool>WebStorm</tool>
+        <tool>VSCode</tool>
+        <tool>Eclipse</tool>
+        <tool>Visual Studio</tool>
+        <tool>SQL Server Management Studio</tool>
+        <tool>Azure Data Studio</tool>
+        <tool>Git</tool>
+        <tool>JIRA</tool>
+        <tool>Docker</tool>
+        <tool>GitHub</tool>
+        <tool>GitLab</tool>
+        <tool>BitBucket</tool>
+    </tools>
+</resume>       

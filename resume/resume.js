@@ -1,3 +1,11 @@
+/**
+ * This script fetches the XML and XSL files and applies the XSL transformation to the XML file.
+ * iife is used to prevent global scope pollution.
+ * 
+ * @param {string} xslUrl - The URL of the XSL file.
+ * @param {string} xmlUrl - The URL of the XML file.
+ * @param {string} elementId - The ID of the element to which the transformed XML will be appended.
+ */
 (async function XMLtransformation(xslUrl, xmlUrl, elementId) {
 
     async function getXmlString(url) {
