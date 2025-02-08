@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Lexend:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 #resume {
-    margin: 32px;
-    padding: 44px 28px;
-    background-color: white;
-    box-shadow: 8px 10px #818d82;
-    min-width: 600px;
 
     font-family: "Merriweather", serif;
     font-optical-sizing: auto;
@@ -45,6 +40,23 @@
     /* section {
         border: 1px solid #e0e0e0;
     } */
+}
+
+@media screen and (max-width: 600px) {
+    #resume {
+        flex-direction: column;
+        margin: 0.6rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #resume {
+        margin: 32px;
+        padding: 44px 28px;
+        background-color: white;
+        box-shadow: 8px 10px #818d82;
+    }
+
 }
 
 #resume .info {
