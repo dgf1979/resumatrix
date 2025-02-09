@@ -54,27 +54,6 @@
             </notes>
         </experience>
         <experience>
-            <title>Ship Dock</title>
-            <company>Amazon</company>
-            <location>Spokane, Wa</location>
-            <dates>
-                <start>
-                    <month></month>
-                    <year>2020</year>
-                </start>
-                <end>
-                    <month></month>
-                    <year>2020</year>
-                </end>
-            </dates>
-            <description>
-                Sort and load outgoing packages for delivery
-            </description>
-            <notes>
-
-            </notes>
-        </experience>
-        <experience>
             <title>Programmer (Full Stack)</title>
             <company>Maplewood Software</company>
             <location>Spokane, Wa</location>
@@ -205,22 +184,24 @@
     </experiences>
     <education>
         <course>
-            <name>Certificate - Web Development</name>
-            <school>Baker College</school>
-            <location>Cadillac, MI</location>
-            <url>https://www.baker.edu</url>
-            <dates>2013-2015</dates>
+            <title>Full Stack Bootcamp</title>
+            <school>Epicodus</school>
+            <location>Portland, OR</location>
+            <dates>Summer 2015</dates>
+            <description>4 month, 40 hour per week in-person coding bootcamp program</description>
             <notes>
-                <p>Also took classes unrelated to certificate program</p>
+                <p>Epicodus closed its doors in 2023</p>
             </notes>
         </course>
         <course>
-            <name>27 week coding bootcamp program</name>
-            <school>Epicodus</school>
-            <location>Portland, OR</location>
-            <dates>2007-2011</dates>
+            <title>Certificate - Computer Service Technician</title>
+            <school>Baker College</school>
+            <location>Cadillac, MI</location>
+            <url>https://www.baker.edu</url>
+            <dates>2000-2008</dates>
+            <description>Night classes while working at Wilcox Professional Services</description>
             <notes>
-                <p>Epicodus closed its doors in 2023</p>
+                <p>Also took classes unrelated to certificate program</p>
             </notes>
         </course>
     </education>
