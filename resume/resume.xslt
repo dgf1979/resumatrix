@@ -82,8 +82,7 @@
                 </section>
             </aside>
         </section>
-        <div class="page-break"></div>
-        <section class="education">
+        <section class="education page-break">
             <h1>Education</h1>
             <xsl:for-each select="resume/education/course">
                 <div class="course">
