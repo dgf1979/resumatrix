@@ -17,13 +17,6 @@ p {
     text-indent: 0.8rem;
 }
 
-/* increase base font size on narrow viewports */
-@media screen and (max-width: 600px) {
-    html {
-        font-size: 120%;
-    }
-}
-
 h1 {
     font-size: 2.4rem;
     font-weight: 700;

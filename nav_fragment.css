@@ -10,3 +10,10 @@ nav.site-nav {
         padding: 0 1rem;
     }
 }
+
+@media screen and (max-width: 600px) {
+    nav.site-nav {
+        align-items: center;
+        justify-content: center;
+    }
+}

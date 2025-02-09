@@ -82,6 +82,30 @@
                 </section>
             </aside>
         </section>
+        <section class="education page-break">
+            <h1>Education</h1>
+            <xsl:for-each select="resume/education/course">
+                <div class="course">
+                    <h2>
+                        <span class="title">
+                            <xsl:value-of select="title" />
+                        </span>
+                        <xsl:text> @ </xsl:text>
+                        <xsl:text> — </xsl:text>
+                        <span class="location">
+                            <xsl:value-of select="location" />
+                        </span>
+                    </h2>
+                    <div class="dates">
+                        <xsl:value-of select="dates" />
+                    </div>
+                    <span class="description">
+                        <xsl:value-of select="description" />
+                    </span>
+                </div>
+            </xsl:for-each>
+        </section>
+
     </xsl:template>
 
     <xsl:template match="dates">
